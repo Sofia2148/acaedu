@@ -1,0 +1,628 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 { font-size: 3.5em;}
+h2 { font-size: 2.7em;}
+h3 { font-size: 2em;}
+p { font-size: 1.25em;}
+ul { font-size: none;}
+li { font-size: 1.25em;}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(249, 255, 199);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color:blueviolet;
+}
+
+#Mecanica-clasica{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Mecanica-clasica .container{
+    padding: 150px 12px;
+}
+
+#Mecanica-clasica h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Mecanica-clasica p{
+    display: none;
+} 
+
+#Mecanica-clasica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Mecanica-clasica .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Termodinamica{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Termodinamica .container{
+    padding: 150px 12px;
+}
+
+#Termodinamica h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Termodinamica p{
+    display: none;
+} 
+
+#Termodinamica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Termodinamica .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Electromagnetismo{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Electromagnetismo .container{
+    padding: 150px 12px;
+}
+
+#Electromagnetismo h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Electromagnetismo p{
+    display: none;
+} 
+
+#Electromagnetismo .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Electromagnetismo .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Acustica{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Acustica .container{
+    padding: 150px 12px;
+}
+
+#Acustica h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Acustica p{
+    display: none;
+} 
+
+#Acustica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Acustica .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Optica{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Optica .container{
+    padding: 150px 12px;
+}
+
+#Optica h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Optica p{
+    display: none;
+} 
+
+#Optica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Optica .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Mecanica-de-fluidos{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Mecanica-de-fluidos .container{
+    padding: 150px 12px;
+}
+
+#Mecanica-de-fluidos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Mecanica-de-fluidos p{
+    display: none;
+} 
+
+#Mecanica-de-fluidos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Mecanica-de-fluidos .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Mecanica-cuantica{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Mecanica-cuantica .container{
+    padding: 150px 12px;
+}
+
+#Mecanica-cuantica h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Mecanica-cuantica p{
+    display: none;
+} 
+
+#Mecanica-cuantica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Mecanica-cuantica .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Teoria-del-caos{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Teoria-del-caos .container{
+    padding: 150px 12px;
+}
+
+#Teoria-del-caos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Teoria-del-caos p{
+    display: none;
+} 
+
+#Teoria-del-caos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Teoria-del-caos .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin:0;
+    color:rgb(100, 100,100);
+}
+
+footer  .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #SomosAcaEdu .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #SomosAcaEdu .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #SomosAcaEdu h2{
+        margin-top: 0px;
+    }
+
+    #SomosAcaEdu .img-container{
+        background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ) ,url("https://www.cetys.mx/educon/wp-content/uploads/2021/08/live-instructor-led-online-training-scaled.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+    }
+
+    #Mecanica-clasica .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Mecanica-clasica p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Mecanica-clasica h3{
+        margin-top: 0;
+    }
+
+    #Mecanica-clasica .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Termodinamica .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Termodinamica p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Termodinamica h3{
+        margin-top: 0;
+    }
+
+    #Termodinamica .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Electromagnetismo .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Electromagnetismo p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Electromagnetismo h3{
+        margin-top: 0;
+    }
+
+    #Electromagnetismo .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Acustica .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Acustica p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Acustica h3{
+        margin-top: 0;
+    }
+
+    #Acustica .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Optica .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Optica p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Optica h3{
+        margin-top: 0;
+    }
+
+    #Optica .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Mecanica-de-fluidos .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Mecanica-de-fluidos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Mecanica-de-fluidos h3{
+        margin-top: 0;
+    }
+
+    #Mecanica-de-fluidos .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Mecanica-cuantica .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Mecanica-cuantica p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Mecanica-cuantica h3{
+        margin-top: 0;
+    }
+
+    #Mecanica-cuantica .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #Teoria-del-caos .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Teoria-del-caos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Teoria-del-caos h3{
+        margin-top: 0;
+    }
+
+    #Teoria-del-caos .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}

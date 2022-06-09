@@ -1,0 +1,806 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 { font-size: 3.5em;}
+h2 { font-size: 2.7em;}
+h3 { font-size: 2em;}
+p { font-size: 1.25em;}
+ul { font-size: none;}
+li { font-size: 1.25em;}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(249, 255, 199);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color:blueviolet;
+}
+
+#Algebra{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Algebra .container{
+    padding: 150px 12px;
+}
+
+#Algebra h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Algebra p{
+    display: none;
+} 
+
+#Algebra .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Algebra .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Algebra{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Algebra .container{
+    padding: 150px 12px;
+}
+
+#Algebra h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Algebra p{
+    display: none;
+} 
+
+#Algebra .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Algebra .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Algebra{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Algebra .container{
+    padding: 150px 12px;
+}
+
+#Algebra h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Algebra p{
+    display: none;
+} 
+
+#Algebra .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Algebra .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#Algebra{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#Algebra .container{
+    padding: 150px 12px;
+}
+
+#Algebra h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Algebra p{
+    display: none;
+} 
+
+#Algebra .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#Algebra .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#CÁLCULO-MULTIVARIABLE{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#CÁLCULO-MULTIVARIABLE .container{
+    padding: 150px 12px;
+}
+
+#CÁLCULO-MULTIVARIABLE h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#CÁLCULO-MULTIVARIABLE p{
+    display: none;
+} 
+
+#CÁLCULO-MULTIVARIABLE .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#CÁLCULO-MULTIVARIABLE .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#ESTADÍSTICA-Y-PROBABILIDAD{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#ESTADÍSTICA-Y-PROBABILIDAD .container{
+    padding: 150px 12px;
+}
+
+#ESTADÍSTICA-Y-PROBABILIDAD h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#ESTADÍSTICA-Y-PROBABILIDAD p{
+    display: none;
+} 
+
+#ESTADÍSTICA-Y-PROBABILIDAD .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#ESTADÍSTICA-Y-PROBABILIDAD .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#GEOMETRÍA{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#GEOMETRÍA .container{
+    padding: 150px 12px;
+}
+
+#GEOMETRÍA h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#GEOMETRÍA p{
+    display: none;
+} 
+
+#GEOMETRÍA .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#GEOMETRÍA .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#TRIGONOMETRÍA{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#TRIGONOMETRÍA .container{
+    padding: 150px 12px;
+}
+
+#TRIGONOMETRÍA h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#TRIGONOMETRÍA p{
+    display: none;
+} 
+
+#TRIGONOMETRÍA .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#TRIGONOMETRÍA .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#GEOMETRÍA{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#GEOMETRÍA .container{
+    padding: 150px 12px;
+}
+
+#GEOMETRÍA h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#GEOMETRÍA p{
+    display: none;
+} 
+
+#GEOMETRÍA .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#GEOMETRÍA .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#GEOMETRÍA-ANALÍTICA{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#GEOMETRÍA-ANALÍTICA .container{
+    padding: 150px 12px;
+}
+
+#GEOMETRÍA-ANALÍTICA h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#GEOMETRÍA-ANALÍTICA p{
+    display: none;
+} 
+
+#GEOMETRÍA-ANALÍTICA .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#GEOMETRÍA-ANALÍTICA .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+#CÁLCULO-DIFERENCIAL{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#CÁLCULO-DIFERENCIAL .container{
+    padding: 150px 12px;
+}
+
+#CÁLCULO-DIFERENCIAL h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#CÁLCULO-DIFERENCIAL p{
+    display: none;
+} 
+
+#CÁLCULO-DIFERENCIAL .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#CÁLCULO-DIFERENCIAL .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+
+#CÁLCULO-INTEGRAL{
+    background-color: #FFD085;
+    color: white;
+    text-align: center;
+}
+
+#CÁLCULO-INTEGRAL .container{
+    padding: 150px 12px;
+}
+
+#CÁLCULO-INTEGRAL h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#CÁLCULO-INTEGRAL p{
+    display: none;
+} 
+
+#CÁLCULO-INTEGRAL .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#CÁLCULO-INTEGRAL .video{
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 136, 171, 0.5),
+        rgba(182, 179, 179, 0.5)
+    ) 
+    ,url("");
+} 
+
+
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin:0;
+    color:rgb(100, 100,100);
+}
+
+footer  .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #SomosAcaEdu .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #SomosAcaEdu .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #SomosAcaEdu h2{
+        margin-top: 0px;
+    }
+
+    #SomosAcaEdu .img-container{
+        background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ) ,url("https://www.cetys.mx/educon/wp-content/uploads/2021/08/live-instructor-led-online-training-scaled.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+    }
+
+    #Algebra .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Algebra p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Algebra h3{
+        margin-top: 0;
+    }
+
+    #Algebra .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #CÁLCULO-MULTIVARIABLE .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #CÁLCULO-MULTIVARIABLE p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #CÁLCULO-MULTIVARIABLE h3{
+        margin-top: 0;
+    }
+
+    #CÁLCULO-MULTIVARIABLE .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #ESTADÍSTICA-Y-PROBABILIDAD .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #ESTADÍSTICA-Y-PROBABILIDAD p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #ESTADÍSTICA-Y-PROBABILIDAD h3{
+        margin-top: 0;
+    }
+
+    #ESTADÍSTICA-Y-PROBABILIDAD .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #GEOMETRÍA .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #GEOMETRÍA p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #GEOMETRÍA h3{
+        margin-top: 0;
+    }
+
+    #GEOMETRÍA .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #TRIGONOMETRÍA .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #TRIGONOMETRÍA p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #TRIGONOMETRÍA h3{
+        margin-top: 0;
+    }
+
+    #TRIGONOMETRÍA .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #GEOMETRÍA-ANALÍTICA .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #GEOMETRÍA-ANALÍTICA p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #GEOMETRÍA-ANALÍTICA h3{
+        margin-top: 0;
+    }
+
+    #GEOMETRÍA-ANALÍTICA .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #CÁLCULO-DIFERENCIAL .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #CÁLCULO-DIFERENCIAL p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #CÁLCULO-DIFERENCIAL h3{
+        margin-top: 0;
+    }
+
+    #CÁLCULO-DIFERENCIAL .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+    #CÁLCULO-INTEGRAL .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #CÁLCULO-INTEGRAL p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #CÁLCULO-INTEGRAL h3{
+        margin-top: 0;
+    }
+
+    #CÁLCULO-INTEGRAL .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    }
+
+
+    
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}

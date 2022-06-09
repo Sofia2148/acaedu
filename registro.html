@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Registro de admisiones</title>
+<style type="text/css">
+body { 
+	background:#B0E2ED;
+	background-image: url("https://previews.123rf.com/images/marinamandarina/marinamandarina1608/marinamandarina160800004/61482653-de-vuelta-a-la-escuela-texturas-para-fondos-de-escritorio-rellenos-de-fondo-p%C3%A1gina-web-.jpg");
+	font-family:Warung Kopi;
+	font-size:30px;
+	font-weight:25px;
+	text-align:center;
+}
+H1 {
+	
+	font-family:Muthiara -Demo Version-;
+	font-size:50px;
+	font-weight:25px;
+	text-align:center;
+	background:#F8F5F7;
+}
+H3 {
+	text-align: center;
+	width:250px;
+	background:#F8F5F7;
+	
+	
+}
+</style>
+</head>
+<body>
+<script language= "javascript" type= "text/javascript">
+function Mostrar()
+{
+alert('Tu nombre es ' + formulario.nombre.value);
+alert('Tu fecha de nacimiento es ' + formulario.fecha.value);
+alert('Tu dirección es ' + formulario.direccion.value);
+alert('Tu edad es ' + formulario.edad.value);
+alert('Tu CURP es ' + formulario.curp.value);
+alert('Tu carrera solicitada es ' + formulario.carrera.value);
+alert('El nombre de tu papá es ' + formulario.NP.value);
+alert('El nombre de tu mamá es ' + formulario.NM.value);
+alert('Tu contacto de emergencia es ' + formulario.CE.value);
+alert('Tu promedio es ' + formulario.pro.value);
+}
+
+</script>
+<form name="REGISTRO" id="formulario">
+<H1>Registro de estudiantes </H1>
+Nombre del estudiante:<br> <input type="text" name="nombre" value="" maxlength="15"><br><br>
+Fecha de nacimiento:<br> <input type="text" name="fecha" value="" maxlength="15"><br><br>
+Dirección:<br><input type="text" name="direccion" maxlength="100"><br><br>
+Edad:<br><input type="text" name="edad" maxlength="10"><br><br>
+CURP: <br><input type="text" name="curp" maxlength="10"><br><br>
+Nombre Papá: <br><input type="text" name="NP" maxlength="50"><br><br>
+Nombre Mamá: <br><input type="text" name="NM" maxlength="50"><br><br>
+Contacto de Emergencia: <br><input type="text" name="CE" maxlength="50"><br><br>
+Promedio:<br><input type="text" name="pro" maxlength="10"><br><br>
+Carrera solicitada:<br><input type="text" name="carrera" maxlength="100"><br><br>
+</form>
+<a href="javascript:Mostrar();">Mostrar datos</a><br>
+</body>
+</html>
